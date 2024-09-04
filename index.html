@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hear 2 Play </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>SoundMatch Guitar Trainer</h1>
+        <div id="fretboard">
+            <!-- Virtual fretboard representation -->
+            <div class="string" id="string-1"></div>
+            <div class="string" id="string-2"></div>
+            <div class="string" id="string-3"></div>
+            <div class="string" id="string-4"></div>
+            <div class="string" id="string-5"></div>
+            <div class="string" id="string-6"></div>
+        </div>
+        <button id="play-sequence">Play Sequence</button>
+        <button id="record">Record Notes</button>
+        <button id="check-notes">Check Notes</button>
+        <div id="feedback"></div>
+        <div id="note-output"></div>
+        <div id="recorded-notes"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
