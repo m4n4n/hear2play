@@ -1,4 +1,4 @@
-# Hear2Play Game
+# GuitarMaestro Game
 
 This project is a simple web-based application designed to help users learn and practice recognizing guitar notes. It uses the Web Audio API to play a sequence of notes, record user input, and compare it to the expected notes.
 
