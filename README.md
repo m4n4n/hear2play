@@ -8,9 +8,16 @@ This project is a simple web-based application designed to help users learn and 
 - **Check Notes**: Compares detected notes to the expected sequence and provides feedback.
 
 ## Technologies
-- **HTML**: Structure and layout
-- **CSS**: Styling
-- **JavaScript**: Web Audio API for note playback and detection
+
+### Frontend
+- **ReactJS**: To render a frontend comprising of a dynamic fretboard
+- **Web Audio API**: To take input from user
+- **EssentiaJS**: To analyze the input pitch and accuracy
+- **CSS**: For styling
+
+### Backend
+- **Node**: Server deployment
+- **MongoDB**: To catalogue songs
 
 ## Setup
 
